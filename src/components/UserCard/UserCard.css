@@ -1,0 +1,47 @@
+.user-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px 32px;
+  border-radius: 12.936px;
+  border: 1px solid rgba(75, 85, 99, 0.04);
+  background: #f9fafb;
+  box-shadow: 0px 0px 16px 0px rgba(169, 89, 245, 0.1);
+}
+
+.skill-data-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  width: 100%;
+  margin-top: 14px;
+}
+
+.skill-type-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.skill-type-container h4 {
+  color: #181625;
+  text-align: center;
+  font-family: Inter;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: -0.243px;
+}
+
+.skill-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 15px;
+}

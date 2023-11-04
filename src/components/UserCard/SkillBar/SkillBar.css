@@ -1,0 +1,48 @@
+.user-skill-container {
+  width: 100%;
+}
+
+.skill-info-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.skill-info-container .skill-name {
+  font-family: Inter;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 12px;
+}
+
+.skill-info-container .skill-value {
+  color: #181625;
+  font-family: Inter;
+  font-size: 9.702px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 14px;
+}
+
+.skill-bar-container {
+  position: relative;
+  width: 100%;
+  margin-top: 1px;
+}
+
+.skill-bar-container .skill-bar-skeleton {
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background-color: #e8e8e9;
+  border-radius: 162px;
+}
+
+.skill-bar-container .skill-bar-value {
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background-color: #a959f5;
+  border-radius: 162px;
+}
