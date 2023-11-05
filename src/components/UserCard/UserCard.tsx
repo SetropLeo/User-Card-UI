@@ -22,10 +22,6 @@ const UserCard = () => {
   });
 
   const hasSkillData = mappedHardSkills.length && mappedSoftSkills.length;
-
-  // const mappedHardSkills: any = []
-  // const mappedSoftSkills: any = []
-
   return (
     <div className="user-card-container">
       <UserInfo
@@ -46,7 +42,9 @@ const UserCard = () => {
           <div className="skill-list">{mappedSoftSkills}</div>
         </div>
       ) : (
-        <p>There is no data available about the candidate.</p>
+        <div className="empty-data-container">
+          <p>There is no data available about the candidate.</p>
+        </div>
       )}
     </div>
   );
